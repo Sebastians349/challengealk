@@ -1,19 +1,18 @@
+import Login from "./components/Login";
+// import TeamGrid from "./components/TeamGrid";
+
 function App() {
   return (
     <div className="container mt-4">
-      <h1 className="text-center">Super Hero Challenge</h1>
+      <img
+        src="alkemyblanco.png"
+        className="img-fluid mx-auto d-block"
+        alt="logo alkemy"
+      />
+      <h1 className="text-center mt-1">Super Heroes Team</h1>
       <hr />
-      {/* grid equipo */}
-      <div class="row text-center">
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-      </div>
-      <div class="row text-center">
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-        <div class="col">Column</div>
-      </div>
+      <Login />
+      {/* <TeamGrid /> */}
     </div> //fin container
   );
 }
